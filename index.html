@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MinioPG_v1.0</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/element-plus/dist/index.css">
+    <script src="https://unpkg.com/element-plus"></script>
+    <script src="https://unpkg.com/@element-plus/icons-vue"></script>
+    <style>
+        /* 悬浮按钮样式 */
+        .float-button {
+            position: static;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: #fff;
+            transition: all 0.3s;
+            line-height: 1;
+            padding: 0;
+            margin: 0;
+            width: 22px;
+            height: 22px;
+            transform: none;
+        }
+
+        .float-button:hover {
+            color: #409EFF;
+        }
+
+        .float-button i {
+            font-size: 22px;
+            line-height: 1;
+            display: block;
+            width: 22px;
+            height: 22px;
+        }
+
+        /* 底部工具栏样式 */
+        .sidebar-bottom {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 0 10px;
+        }
+
+        /* GitHub图标样式 */
+        .sidebar-github {
+            position: static;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            line-height: 1;
+            width: 22px;
+            height: 22px;
+            transform: none;
+        }
+
+        .sidebar-github svg {
+            width: 22px;
+            height: 22px;
+            display: block;
+        }
+
+        #app {
+            height: 100vh;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="sidebar">
+            <div class="sidebar-logo">MinioPG</div>
+            <div class="sidebar-menu-wrap">
+                <el-menu :default-active="activeMenu" class="el-menu-vertical-demo" @select="handleMenuSelect" background-color="#2d2d2d" text-color="#fff" active-text-color="#409EFF">
+                    <el-menu-item index="upload">
+                        <span>上传区</span>
+                    </el-menu-item>
+                    <el-menu-item index="album">
+                        <span>文件列表</span>
+                    </el-menu-item>
+                    <el-menu-item index="setting">
+                        <span>Minio设置</span>
+                    </el-menu-item>
+                </el-menu>
+            </div>
+            <div class="sidebar-bottom">
+                <a class="sidebar-github" @click="openGitHub" href="javascript:void(0)" title="GitHub">
+                    <svg viewBox="0 0 24 24" width="22" height="22" fill="#fff">
+                        <path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.49 2.87 8.3 6.84 9.64.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.17-1.1-1.48-1.1-1.48-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/>
+                    </svg>
+                </a>
+                <div class="float-button" @click="toggleFloatingMode" title="切换悬浮窗">
+                    <i class="el-icon"><Magnet /></i>
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div v-if="activeMenu === 'upload'" class="upload-panel view-transition">
+                <div class="upload-header upload-title-center">
+                    <span>{{ uploadTitle }}</span>
+                    <div class="target-directory-bar">
+                        <span class="current-dir-label">当前目录:</span>
+                        <span class="current-dir-path">{{ currentUploadPath || '/' }}</span>
+                        <el-button type="primary" size="small" @click="showDirectorySelector = true">选择</el-button>
+                    </div>
+                </div>
+                <div class="upload-area-picgo" @drop.prevent="handleDrop" @dragover.prevent>
+                    <div class="upload-area-inner">
+                        <el-icon class="upload-icon"><UploadFilled /></el-icon>
+                        <div class="upload-tip">
+                            将文件拖拽到此处，或 <span class="upload-link" @click="selectFiles">点击上传</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 目录选择对话框 -->
+                <el-dialog
+                    title="选择上传目录"
+                    v-model="showDirectorySelector"
+                    width="360px"
+                    :close-on-click-modal="false"
+                    :close-on-press-escape="true"
+                    :append-to-body="true"
+                    :modal="true"
+                    class="directory-dialog"
+                    align-center
+                    destroy-on-close
+                >
+                    <div class="directory-selector">
+                        <p>请选择文件上传的目标目录:</p>
+                        <el-select 
+                            v-model="tempSelectedDirectory" 
+                            class="directory-select"
+                            placeholder="请选择目录"
+                            style="width: 100%"
+                            popper-class="directory-select-dropdown"
+                        >
+                            <el-option 
+                                label="根目录 (/)" 
+                                value=""
+                            ></el-option>
+                            <el-option 
+                                v-for="dir in availableDirectories" 
+                                :key="dir.name"
+                                :label="dir.name" 
+                                :value="dir.fullPath || dir.name"
+                            ></el-option>
+                        </el-select>
+                    </div>
+                    <template #footer>
+                        <span class="dialog-footer">
+                            <el-button @click="showDirectorySelector = false">取消</el-button>
+                            <el-button type="primary" @click="confirmDirectorySelection">确定</el-button>
+                        </span>
+                    </template>
+                </el-dialog>
+                
+                <!-- 上传结果区域已被注释掉，因为我们现在直接复制到剪贴板
+                <div v-if="uploadedUrls.length > 0" class="upload-result">
+                    <div class="result-title">上传结果</div>
+                    <div class="result-list">
+                        <div v-for="(url, index) in uploadedUrls" :key="index" class="result-item">
+                            <div class="result-url">{{ url }}</div>
+                            <el-button size="small" type="primary" @click="copyUrl(url)">复制</el-button>
+                        </div>
+                    </div>
+                </div>
+                -->
+                
+                <div class="upload-bottom-bar-picgo">
+                    <div class="link-format-group-vertical">
+                        <div class="group-label">链接格式</div>
+                        <div class="link-btn-row">
+                            <button v-for="item in linkFormatList" :key="item" class="link-btn" :class="{selected: linkFormat === item}" @click="linkFormat = item">{{ item }}</button>
+                        </div>
+                    </div>
+                    <div class="quick-upload-group-vertical">
+                        <div class="group-label">快捷上传</div>
+                        <div class="quick-btn-row">
+                            <button class="quick-btn" @click="uploadClipboard">剪贴板图片</button>
+                            <button class="quick-btn url" @click="uploadByUrl">URL</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div v-if="activeMenu === 'album'" class="file-list-panel view-transition">
+                <div class="panel-header" style="flex-direction: column; align-items: flex-start;">
+                    <h2 style="color: #ffffff; margin-bottom: 15px;">文件列表</h2>
+                    <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+                        <div class="panel-actions">
+                            <el-select v-model="gridType" placeholder="布局" size="small" style="width: 110px; margin-right: 10px;">
+                                <el-option label="自适应网格" value="auto"></el-option>
+                                <el-option label="固定宽度" value="fixed"></el-option>
+                            </el-select>
+                            <el-button type="success" size="small" @click="createFolder" style="margin-right: 10px;">创建文件夹</el-button>
+                            <el-button type="primary" size="small" @click="loadFileList" style="margin-right: 10px;">刷新</el-button>
+                            <el-button type="danger" size="small" @click="batchDelete" :disabled="selectedFiles.length === 0">批量删除</el-button>
+                        </div>
+                        <div class="file-type-filter" style="border: none; background: none; padding: 6px 0; margin-left: 30px;">
+                            <el-checkbox v-model="showFolders" label="文件夹"></el-checkbox>
+                            <el-checkbox v-model="showImages" label="图片"></el-checkbox>
+                            <el-checkbox v-model="showOthers" label="其它"></el-checkbox>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-container">
+                    <div v-if="filteredFileList.length === 0" class="empty-gallery">
+                        <el-icon class="empty-icon"><Picture /></el-icon>
+                        <p>暂无文件，请先上传或选择其他筛选条件</p>
+                    </div>
+                    <div v-else :class="['image-gallery', gridType === 'fixed' ? 'fixed-grid' : '']">
+                        <div v-for="item in filteredFileList" :key="item.name" class="gallery-item">
+                            <div class="gallery-item-select" v-if="!item.isParent">
+                                <el-checkbox v-model="item.selected" @change="handleItemSelect(item)"></el-checkbox>
+                            </div>
+                            <div v-if="item.isFolder" class="gallery-image-container folder-container" @click="openFolder(item)">
+                                <el-icon class="folder-icon"><Folder /></el-icon>
+                                <div class="folder-name">{{ item.name.replace('/', '') }}</div>
+                            </div>
+                            <div v-else class="gallery-image-container" @click="previewImage(item)">
+                                <img :src="item.url" :alt="item.name" class="gallery-image" />
+                            </div>
+                            <div class="gallery-item-info">
+                                <div class="gallery-item-name" :title="item.name">{{ item.isFolder ? item.name.replace('/', '') : item.name }}</div>
+                                <div class="gallery-item-meta">{{ item.size }} | {{ item.lastModified }}</div>
+                            </div>
+                            <div class="gallery-item-actions">
+                                <template v-if="item.isFolder">
+                                    <el-button size="small" type="primary" @click="openFolder(item)">打开</el-button>
+                                    <el-button size="small" type="warning" @click="renameFile(item)">重命名</el-button>
+                                    <el-button size="small" type="danger" @click="deleteFile(item)">删除</el-button>
+                                </template>
+                                <template v-else>
+                                    <el-button size="small" type="primary" @click="copyUrl(item.url)">复制链接</el-button>
+                                    <el-button size="small" type="warning" @click="renameFile(item)">重命名</el-button>
+                                    <el-button size="small" type="danger" @click="deleteFile(item)">删除</el-button>
+                                </template>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div v-if="activeMenu === 'setting'" class="minio-setting-panel">
+                <el-form :model="minioConfig" label-width="100px" class="minio-setting-form">
+                    <el-form-item label="endPoint">
+                        <el-input v-model="minioConfig.endPoint" placeholder="请输入endPoint，例如：play.min.io" />
+                    </el-form-item>
+                    <el-form-item label="port">
+                        <el-input v-model="minioConfig.port" placeholder="请输入端口，默认：9000" />
+                    </el-form-item>
+                    <el-form-item label="accessKey">
+                        <el-input v-model="minioConfig.accessKey" placeholder="请输入accessKey" />
+                    </el-form-item>
+                    <el-form-item label="secretKey">
+                        <el-input v-model="minioConfig.secretKey" placeholder="请输入secretKey" type="password" />
+                    </el-form-item>
+                    <el-form-item label="存储桶">
+                        <el-input v-model="minioConfig.bucket" placeholder="请输入存储桶名称" />
+                    </el-form-item>
+                    <el-form-item label="自定义域名">
+                        <el-input v-model="minioConfig.domain" placeholder="请输入自定义域名（可选）" />
+                        <div class="form-tip">如果配置了自定义域名，生成的URL将使用此域名</div>
+                    </el-form-item>
+                    <el-form-item>
+                        <el-button type="primary" @click="saveMinioConfig">保存配置</el-button>
+                        <el-button type="warning" @click="resetConfig">重置配置</el-button>
+                    </el-form-item>
+                </el-form>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html> 
