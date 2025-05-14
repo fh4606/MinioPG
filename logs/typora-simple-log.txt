@@ -1,0 +1,15 @@
+2025/05/14 ���� 16:52:40.21 ======== 开始处理Typora上传请求 ======== 
+2025/05/14 ���� 16:52:40.22 参数: "C:\\Users\\Administrator\\AppData\\Local\\Temp/typora-icon2.png" "C:\\Users\\Administrator\\AppData\\Local\\Temp/typora-icon.png" 
+2025/05/14 ���� 16:52:40.22 脚本路径: D:\MinioGP\ 
+2025/05/14 ���� 16:52:40.23 日志目录: D:\MinioGP\logs 
+2025/05/14 ���� 16:52:40.24 文件路径: C:\\Users\\Administrator\\AppData\\Local\\Temp/typora-icon2.png 
+2025/05/14 ���� 16:52:40.24 应用程序根目�? D:\MinioGP\ 
+2025/05/14 ���� 16:52:40.24 检测到开发环�?
+2025/05/14 ���� 16:52:40.25 初始upgit路径: "D:\MinioGP\upgit\upgit_win_amd64.exe" 
+2025/05/14 ���� 16:52:40.25 初始配置路径: "D:\MinioGP\upgit\config.toml" 
+2025/05/14 ���� 16:52:40.26 执行命令: "D:\MinioGP\upgit\upgit_win_amd64.exe" "C:\\Users\\Administrator\\AppData\\Local\\Temp/typora-icon2.png" -c "D:\MinioGP\upgit\config.toml" 
+2025/05/14 ���� 16:52:40.31 命令执行完成，退出代�? 0 
+2025/05/14 ���� 16:52:40.31 命令输出: 
+http://192.168.12.5:9000/www/upgit_20250514_1747212760.png
+2025/05/14 ���� 16:52:40.33 找到URL: http://192.168.12.5:9000/www/upgit_20250514_1747212760.png 
+2025/05/14 ���� 16:52:40.35 上传成功，返回URL: http://192.168.12.5:9000/www/upgit_20250514_1747212760.png 

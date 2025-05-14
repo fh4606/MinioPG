@@ -1,0 +1,849 @@
+[2025-05-10T15:25:48.810Z] [INFO] 应用程序启动
+[2025-05-10T15:28:23.751Z] [INFO] 应用程序启动
+[2025-05-10T15:28:47.940Z] [INFO] 应用程序启动
+[2025-05-12T09:58:49.927Z] [INFO] 应用程序启动
+[2025-05-12T09:58:49.952Z] [INFO] 加载配置文件成功
+[2025-05-12T09:58:49.955Z] [INFO] 开始测试MinIO连接
+[2025-05-12T09:58:49.958Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-12T09:58:49.959Z] [INFO] 正在连接MinIO服务器...
+[2025-05-12T09:58:50.037Z] [INFO] 获取到存储桶列表: ceshi, halo
+[2025-05-12T09:58:50.039Z] [INFO] 检查存储桶是否存在: halo
+[2025-05-12T09:58:50.137Z] [INFO] 存储桶已存在: halo
+[2025-05-12T09:58:50.139Z] [INFO] MinIO连接测试成功
+[2025-05-14T02:04:28.680Z] [INFO] 应用程序启动
+[2025-05-14T02:04:28.706Z] [INFO] 加载配置文件成功
+[2025-05-14T02:04:28.709Z] [INFO] 开始测试MinIO连接
+[2025-05-14T02:04:28.712Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T02:04:28.712Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T02:04:28.888Z] [INFO] 获取到存储桶列表: ceshi, halo
+[2025-05-14T02:04:28.888Z] [INFO] 检查存储桶是否存在: halo
+[2025-05-14T02:04:28.966Z] [INFO] 存储桶已存在: halo
+[2025-05-14T02:04:28.969Z] [INFO] MinIO连接测试成功
+[2025-05-14T02:04:56.990Z] [INFO] 开始测试MinIO连接
+[2025-05-14T02:04:56.990Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T02:04:56.990Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T02:04:56.993Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T02:04:56.993Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T02:04:56.996Z] [INFO] 存储桶已存在: www
+[2025-05-14T02:04:56.998Z] [INFO] MinIO连接测试成功
+[2025-05-14T02:21:17.502Z] [INFO] 应用程序启动
+[2025-05-14T02:21:17.527Z] [INFO] 加载配置文件成功
+[2025-05-14T02:21:17.530Z] [INFO] 开始测试MinIO连接
+[2025-05-14T02:21:17.533Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T02:21:17.533Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T02:21:17.543Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T02:21:17.543Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T02:21:17.549Z] [INFO] 存储桶已存在: www
+[2025-05-14T02:21:17.552Z] [INFO] MinIO连接测试成功
+[2025-05-14T02:21:36.110Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T02:21:36.110Z] [INFO] 正在上传文件: CKA笔记.xmind
+[2025-05-14T02:21:36.133Z] [INFO] 文件 CKA笔记.xmind 上传成功
+[2025-05-14T02:27:03.712Z] [INFO] 应用程序启动
+[2025-05-14T02:27:03.736Z] [INFO] 加载配置文件成功
+[2025-05-14T02:27:03.740Z] [INFO] 开始测试MinIO连接
+[2025-05-14T02:27:03.743Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T02:27:03.744Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T02:27:03.753Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T02:27:03.753Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T02:27:03.763Z] [INFO] 存储桶已存在: www
+[2025-05-14T02:27:03.766Z] [INFO] MinIO连接测试成功
+[2025-05-14T02:27:08.087Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T02:27:08.087Z] [INFO] 正在上传文件: url-1747189628034.png
+[2025-05-14T02:27:08.109Z] [INFO] 文件 url-1747189628034.png 上传成功
+[2025-05-14T02:38:28.543Z] [INFO] 应用程序启动
+[2025-05-14T02:38:28.571Z] [INFO] 加载配置文件成功
+[2025-05-14T02:38:28.574Z] [INFO] 开始测试MinIO连接
+[2025-05-14T02:38:28.578Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T02:38:28.578Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T02:38:28.591Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T02:38:28.592Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T02:38:28.599Z] [INFO] 存储桶已存在: www
+[2025-05-14T02:38:28.603Z] [INFO] MinIO连接测试成功
+[2025-05-14T02:41:21.275Z] [INFO] 应用程序启动
+[2025-05-14T02:41:21.300Z] [INFO] 加载配置文件成功
+[2025-05-14T02:41:21.303Z] [INFO] 开始测试MinIO连接
+[2025-05-14T02:41:21.306Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T02:41:21.307Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T02:41:21.317Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T02:41:21.317Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T02:41:21.324Z] [INFO] 存储桶已存在: www
+[2025-05-14T02:41:21.326Z] [INFO] MinIO连接测试成功
+[2025-05-14T02:44:54.229Z] [INFO] 应用程序启动
+[2025-05-14T02:44:54.255Z] [INFO] 加载配置文件成功
+[2025-05-14T02:44:54.258Z] [INFO] 开始测试MinIO连接
+[2025-05-14T02:44:54.261Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T02:44:54.262Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T02:44:54.273Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T02:44:54.274Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T02:44:54.279Z] [INFO] 存储桶已存在: www
+[2025-05-14T02:44:54.282Z] [INFO] MinIO连接测试成功
+[2025-05-14T02:48:36.282Z] [INFO] 应用程序启动
+[2025-05-14T02:48:36.306Z] [INFO] 加载配置文件成功
+[2025-05-14T02:48:36.309Z] [INFO] 开始测试MinIO连接
+[2025-05-14T02:48:36.313Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T02:48:36.313Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T02:48:36.325Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T02:48:36.325Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T02:48:36.331Z] [INFO] 存储桶已存在: www
+[2025-05-14T02:48:36.333Z] [INFO] MinIO连接测试成功
+[2025-05-14T03:10:31.684Z] [INFO] 应用程序启动
+[2025-05-14T03:10:31.710Z] [INFO] 加载配置文件成功
+[2025-05-14T03:10:31.712Z] [INFO] 开始测试MinIO连接
+[2025-05-14T03:10:31.716Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T03:10:31.716Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T03:10:31.727Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T03:10:31.727Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T03:10:31.733Z] [INFO] 存储桶已存在: www
+[2025-05-14T03:10:31.736Z] [INFO] MinIO连接测试成功
+[2025-05-14T03:13:29.888Z] [INFO] 应用程序启动
+[2025-05-14T03:13:29.915Z] [INFO] 加载配置文件成功
+[2025-05-14T03:13:29.918Z] [INFO] 开始测试MinIO连接
+[2025-05-14T03:13:29.922Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T03:13:29.922Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T03:13:29.932Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T03:13:29.932Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T03:13:29.940Z] [INFO] 存储桶已存在: www
+[2025-05-14T03:13:29.943Z] [INFO] MinIO连接测试成功
+[2025-05-14T03:16:20.388Z] [INFO] 应用程序启动
+[2025-05-14T03:16:20.416Z] [INFO] 加载配置文件成功
+[2025-05-14T03:16:20.419Z] [INFO] 开始测试MinIO连接
+[2025-05-14T03:16:20.422Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T03:16:20.422Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T03:16:20.435Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T03:16:20.436Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T03:16:20.440Z] [INFO] 存储桶已存在: www
+[2025-05-14T03:16:20.443Z] [INFO] MinIO连接测试成功
+[2025-05-14T03:16:44.787Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:16:44.788Z] [INFO] 正在上传文件: 1.jpg
+[2025-05-14T03:16:44.804Z] [INFO] 文件 1.jpg 上传成功
+[2025-05-14T03:16:54.299Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:16:54.299Z] [INFO] 正在上传文件: 2.jpg
+[2025-05-14T03:16:54.307Z] [INFO] 文件 2.jpg 上传成功
+[2025-05-14T03:20:54.278Z] [INFO] 应用程序启动
+[2025-05-14T03:20:54.306Z] [INFO] 加载配置文件成功
+[2025-05-14T03:20:54.308Z] [INFO] 开始测试MinIO连接
+[2025-05-14T03:20:54.313Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T03:20:54.313Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T03:20:54.324Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T03:20:54.324Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T03:20:54.330Z] [INFO] 存储桶已存在: www
+[2025-05-14T03:20:54.332Z] [INFO] MinIO连接测试成功
+[2025-05-14T03:21:16.625Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:21:16.625Z] [INFO] 正在上传文件: 一、基本环境配置，所有主机均配置.md
+[2025-05-14T03:21:16.638Z] [INFO] 文件 一、基本环境配置，所有主机均配置.md 上传成功
+[2025-05-14T03:21:57.380Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:21:57.380Z] [INFO] 正在上传文件: test.psd
+[2025-05-14T03:21:57.400Z] [INFO] 文件 test.psd 上传成功
+[2025-05-14T03:25:17.795Z] [INFO] 应用程序启动
+[2025-05-14T03:25:17.822Z] [INFO] 加载配置文件成功
+[2025-05-14T03:25:17.825Z] [INFO] 开始测试MinIO连接
+[2025-05-14T03:25:17.829Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T03:25:17.829Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T03:25:17.840Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T03:25:17.840Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T03:25:17.846Z] [INFO] 存储桶已存在: www
+[2025-05-14T03:25:17.848Z] [INFO] MinIO连接测试成功
+[2025-05-14T03:31:22.272Z] [INFO] 应用程序启动
+[2025-05-14T03:31:22.298Z] [INFO] 加载配置文件成功
+[2025-05-14T03:31:22.301Z] [INFO] 开始测试MinIO连接
+[2025-05-14T03:31:22.305Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T03:31:22.305Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T03:31:22.315Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T03:31:22.316Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T03:31:22.321Z] [INFO] 存储桶已存在: www
+[2025-05-14T03:31:22.324Z] [INFO] MinIO连接测试成功
+[2025-05-14T03:31:46.671Z] [INFO] 应用程序启动
+[2025-05-14T03:31:46.698Z] [INFO] 加载配置文件成功
+[2025-05-14T03:31:46.701Z] [INFO] 开始测试MinIO连接
+[2025-05-14T03:31:46.704Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T03:31:46.705Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T03:31:46.715Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T03:31:46.716Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T03:31:46.721Z] [INFO] 存储桶已存在: www
+[2025-05-14T03:31:46.724Z] [INFO] MinIO连接测试成功
+[2025-05-14T03:32:49.725Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:32:49.726Z] [INFO] 正在上传文件: PSD编辑器v1.1.exe
+[2025-05-14T03:32:50.125Z] [INFO] 文件 PSD编辑器v1.1.exe 上传成功
+[2025-05-14T03:35:09.666Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:35:09.667Z] [INFO] 正在上传文件: 1.jpg
+[2025-05-14T03:35:09.679Z] [INFO] 文件 1.jpg 上传成功
+[2025-05-14T03:35:09.680Z] [INFO] 正在上传文件: 2.jpg
+[2025-05-14T03:35:09.691Z] [INFO] 文件 2.jpg 上传成功
+[2025-05-14T03:35:09.691Z] [INFO] 正在上传文件: 3.jpg
+[2025-05-14T03:35:09.705Z] [INFO] 文件 3.jpg 上传成功
+[2025-05-14T03:35:09.705Z] [INFO] 正在上传文件: 4.jpg
+[2025-05-14T03:35:09.718Z] [INFO] 文件 4.jpg 上传成功
+[2025-05-14T03:35:09.718Z] [INFO] 正在上传文件: 5.jpg
+[2025-05-14T03:35:09.731Z] [INFO] 文件 5.jpg 上传成功
+[2025-05-14T03:35:09.732Z] [INFO] 正在上传文件: 6.jpg
+[2025-05-14T03:35:09.746Z] [INFO] 文件 6.jpg 上传成功
+[2025-05-14T03:35:09.747Z] [INFO] 正在上传文件: 7.jpg
+[2025-05-14T03:35:09.762Z] [INFO] 文件 7.jpg 上传成功
+[2025-05-14T03:35:09.762Z] [INFO] 正在上传文件: 8.jpg
+[2025-05-14T03:35:09.777Z] [INFO] 文件 8.jpg 上传成功
+[2025-05-14T03:35:09.777Z] [INFO] 正在上传文件: 9.jpg
+[2025-05-14T03:35:09.793Z] [INFO] 文件 9.jpg 上传成功
+[2025-05-14T03:35:09.793Z] [INFO] 正在上传文件: 10.jpg
+[2025-05-14T03:35:09.808Z] [INFO] 文件 10.jpg 上传成功
+[2025-05-14T03:35:09.808Z] [INFO] 正在上传文件: 11.jpg
+[2025-05-14T03:35:09.823Z] [INFO] 文件 11.jpg 上传成功
+[2025-05-14T03:35:09.823Z] [INFO] 正在上传文件: 12.jpg
+[2025-05-14T03:35:09.838Z] [INFO] 文件 12.jpg 上传成功
+[2025-05-14T03:35:09.839Z] [INFO] 正在上传文件: 13.jpg
+[2025-05-14T03:35:09.852Z] [INFO] 文件 13.jpg 上传成功
+[2025-05-14T03:35:09.852Z] [INFO] 正在上传文件: 14.jpg
+[2025-05-14T03:35:09.866Z] [INFO] 文件 14.jpg 上传成功
+[2025-05-14T03:35:09.866Z] [INFO] 正在上传文件: 15.jpg
+[2025-05-14T03:35:09.880Z] [INFO] 文件 15.jpg 上传成功
+[2025-05-14T03:35:09.880Z] [INFO] 正在上传文件: 16.jpg
+[2025-05-14T03:35:09.895Z] [INFO] 文件 16.jpg 上传成功
+[2025-05-14T03:35:09.895Z] [INFO] 正在上传文件: 17.jpg
+[2025-05-14T03:35:09.906Z] [INFO] 文件 17.jpg 上传成功
+[2025-05-14T03:35:09.907Z] [INFO] 正在上传文件: 18.jpg
+[2025-05-14T03:35:09.919Z] [INFO] 文件 18.jpg 上传成功
+[2025-05-14T03:35:09.919Z] [INFO] 正在上传文件: 19.jpg
+[2025-05-14T03:35:09.931Z] [INFO] 文件 19.jpg 上传成功
+[2025-05-14T03:35:09.932Z] [INFO] 正在上传文件: 20.jpg
+[2025-05-14T03:35:09.945Z] [INFO] 文件 20.jpg 上传成功
+[2025-05-14T03:35:09.945Z] [INFO] 正在上传文件: 21.jpg
+[2025-05-14T03:35:09.958Z] [INFO] 文件 21.jpg 上传成功
+[2025-05-14T03:35:09.958Z] [INFO] 正在上传文件: 22.jpg
+[2025-05-14T03:35:09.972Z] [INFO] 文件 22.jpg 上传成功
+[2025-05-14T03:35:09.972Z] [INFO] 正在上传文件: 23.jpg
+[2025-05-14T03:35:09.984Z] [INFO] 文件 23.jpg 上传成功
+[2025-05-14T03:35:09.985Z] [INFO] 正在上传文件: 24.jpg
+[2025-05-14T03:35:09.997Z] [INFO] 文件 24.jpg 上传成功
+[2025-05-14T03:35:09.997Z] [INFO] 正在上传文件: 25.jpg
+[2025-05-14T03:35:10.010Z] [INFO] 文件 25.jpg 上传成功
+[2025-05-14T03:35:10.010Z] [INFO] 正在上传文件: 26.jpg
+[2025-05-14T03:35:10.023Z] [INFO] 文件 26.jpg 上传成功
+[2025-05-14T03:35:10.023Z] [INFO] 正在上传文件: 27.jpg
+[2025-05-14T03:35:10.035Z] [INFO] 文件 27.jpg 上传成功
+[2025-05-14T03:35:10.036Z] [INFO] 正在上传文件: 28.jpg
+[2025-05-14T03:35:10.049Z] [INFO] 文件 28.jpg 上传成功
+[2025-05-14T03:35:10.049Z] [INFO] 正在上传文件: 29.jpg
+[2025-05-14T03:35:10.063Z] [INFO] 文件 29.jpg 上传成功
+[2025-05-14T03:35:10.063Z] [INFO] 正在上传文件: 30.jpg
+[2025-05-14T03:35:10.077Z] [INFO] 文件 30.jpg 上传成功
+[2025-05-14T03:35:10.077Z] [INFO] 正在上传文件: 31.jpg
+[2025-05-14T03:35:10.090Z] [INFO] 文件 31.jpg 上传成功
+[2025-05-14T03:35:10.090Z] [INFO] 正在上传文件: 32.jpg
+[2025-05-14T03:35:10.103Z] [INFO] 文件 32.jpg 上传成功
+[2025-05-14T03:35:10.103Z] [INFO] 正在上传文件: 重命名.bat
+[2025-05-14T03:35:10.114Z] [INFO] 文件 重命名.bat 上传成功
+[2025-05-14T03:36:14.471Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:36:14.471Z] [INFO] 正在上传文件: 1.jpg
+[2025-05-14T03:36:14.482Z] [INFO] 文件 1.jpg 上传成功
+[2025-05-14T03:36:14.482Z] [INFO] 正在上传文件: 2.jpg
+[2025-05-14T03:36:14.491Z] [INFO] 文件 2.jpg 上传成功
+[2025-05-14T03:36:14.491Z] [INFO] 正在上传文件: 3.jpg
+[2025-05-14T03:36:14.498Z] [INFO] 文件 3.jpg 上传成功
+[2025-05-14T03:36:14.498Z] [INFO] 正在上传文件: 4.jpg
+[2025-05-14T03:36:14.507Z] [INFO] 文件 4.jpg 上传成功
+[2025-05-14T03:36:14.507Z] [INFO] 正在上传文件: 5.jpg
+[2025-05-14T03:36:14.514Z] [INFO] 文件 5.jpg 上传成功
+[2025-05-14T03:36:14.514Z] [INFO] 正在上传文件: 6.jpg
+[2025-05-14T03:36:14.522Z] [INFO] 文件 6.jpg 上传成功
+[2025-05-14T03:36:14.522Z] [INFO] 正在上传文件: 7.jpg
+[2025-05-14T03:36:14.529Z] [INFO] 文件 7.jpg 上传成功
+[2025-05-14T03:36:14.529Z] [INFO] 正在上传文件: 8.jpg
+[2025-05-14T03:36:14.536Z] [INFO] 文件 8.jpg 上传成功
+[2025-05-14T03:36:14.536Z] [INFO] 正在上传文件: 9.jpg
+[2025-05-14T03:36:14.543Z] [INFO] 文件 9.jpg 上传成功
+[2025-05-14T03:36:14.543Z] [INFO] 正在上传文件: 10.jpg
+[2025-05-14T03:36:14.550Z] [INFO] 文件 10.jpg 上传成功
+[2025-05-14T03:36:14.550Z] [INFO] 正在上传文件: 11.jpg
+[2025-05-14T03:36:14.558Z] [INFO] 文件 11.jpg 上传成功
+[2025-05-14T03:36:14.558Z] [INFO] 正在上传文件: 12.jpg
+[2025-05-14T03:36:14.565Z] [INFO] 文件 12.jpg 上传成功
+[2025-05-14T03:36:14.566Z] [INFO] 正在上传文件: 13.jpg
+[2025-05-14T03:36:14.573Z] [INFO] 文件 13.jpg 上传成功
+[2025-05-14T03:36:14.574Z] [INFO] 正在上传文件: 14.jpg
+[2025-05-14T03:36:14.581Z] [INFO] 文件 14.jpg 上传成功
+[2025-05-14T03:36:14.581Z] [INFO] 正在上传文件: 15.jpg
+[2025-05-14T03:36:14.588Z] [INFO] 文件 15.jpg 上传成功
+[2025-05-14T03:36:14.588Z] [INFO] 正在上传文件: 16.jpg
+[2025-05-14T03:36:14.596Z] [INFO] 文件 16.jpg 上传成功
+[2025-05-14T03:36:14.596Z] [INFO] 正在上传文件: 17.jpg
+[2025-05-14T03:36:14.603Z] [INFO] 文件 17.jpg 上传成功
+[2025-05-14T03:36:14.603Z] [INFO] 正在上传文件: 18.jpg
+[2025-05-14T03:36:14.610Z] [INFO] 文件 18.jpg 上传成功
+[2025-05-14T03:36:14.610Z] [INFO] 正在上传文件: 19.jpg
+[2025-05-14T03:36:14.617Z] [INFO] 文件 19.jpg 上传成功
+[2025-05-14T03:36:14.617Z] [INFO] 正在上传文件: 20.jpg
+[2025-05-14T03:36:14.625Z] [INFO] 文件 20.jpg 上传成功
+[2025-05-14T03:36:14.626Z] [INFO] 正在上传文件: 21.jpg
+[2025-05-14T03:36:14.633Z] [INFO] 文件 21.jpg 上传成功
+[2025-05-14T03:36:14.633Z] [INFO] 正在上传文件: 22.jpg
+[2025-05-14T03:36:14.641Z] [INFO] 文件 22.jpg 上传成功
+[2025-05-14T03:36:14.642Z] [INFO] 正在上传文件: 23.jpg
+[2025-05-14T03:36:14.648Z] [INFO] 文件 23.jpg 上传成功
+[2025-05-14T03:36:14.649Z] [INFO] 正在上传文件: 24.jpg
+[2025-05-14T03:36:14.657Z] [INFO] 文件 24.jpg 上传成功
+[2025-05-14T03:36:14.657Z] [INFO] 正在上传文件: 25.jpg
+[2025-05-14T03:36:14.665Z] [INFO] 文件 25.jpg 上传成功
+[2025-05-14T03:36:14.665Z] [INFO] 正在上传文件: 26.jpg
+[2025-05-14T03:36:14.673Z] [INFO] 文件 26.jpg 上传成功
+[2025-05-14T03:36:14.673Z] [INFO] 正在上传文件: 27.jpg
+[2025-05-14T03:36:14.680Z] [INFO] 文件 27.jpg 上传成功
+[2025-05-14T03:36:14.681Z] [INFO] 正在上传文件: 28.jpg
+[2025-05-14T03:36:14.689Z] [INFO] 文件 28.jpg 上传成功
+[2025-05-14T03:36:14.689Z] [INFO] 正在上传文件: 29.jpg
+[2025-05-14T03:36:14.695Z] [INFO] 文件 29.jpg 上传成功
+[2025-05-14T03:36:14.696Z] [INFO] 正在上传文件: 30.jpg
+[2025-05-14T03:36:14.702Z] [INFO] 文件 30.jpg 上传成功
+[2025-05-14T03:36:14.703Z] [INFO] 正在上传文件: 31.jpg
+[2025-05-14T03:36:14.710Z] [INFO] 文件 31.jpg 上传成功
+[2025-05-14T03:36:14.711Z] [INFO] 正在上传文件: 32.jpg
+[2025-05-14T03:36:14.718Z] [INFO] 文件 32.jpg 上传成功
+[2025-05-14T03:36:14.718Z] [INFO] 正在上传文件: 重命名.bat
+[2025-05-14T03:36:14.724Z] [INFO] 文件 重命名.bat 上传成功
+[2025-05-14T03:36:46.425Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:36:46.425Z] [INFO] 正在上传文件: 1 - 副本 (2).jpg
+[2025-05-14T03:36:46.435Z] [INFO] 文件 1 - 副本 (2).jpg 上传成功
+[2025-05-14T03:36:46.436Z] [INFO] 正在上传文件: 1 - 副本 (3).jpg
+[2025-05-14T03:36:46.442Z] [INFO] 文件 1 - 副本 (3).jpg 上传成功
+[2025-05-14T03:36:46.442Z] [INFO] 正在上传文件: 1 - 副本 (4).jpg
+[2025-05-14T03:36:46.448Z] [INFO] 文件 1 - 副本 (4).jpg 上传成功
+[2025-05-14T03:36:46.448Z] [INFO] 正在上传文件: 1 - 副本 (5).jpg
+[2025-05-14T03:36:46.455Z] [INFO] 文件 1 - 副本 (5).jpg 上传成功
+[2025-05-14T03:36:46.456Z] [INFO] 正在上传文件: 1 - 副本.jpg
+[2025-05-14T03:36:46.462Z] [INFO] 文件 1 - 副本.jpg 上传成功
+[2025-05-14T03:36:46.462Z] [INFO] 正在上传文件: 1.jpg
+[2025-05-14T03:36:46.467Z] [INFO] 文件 1.jpg 上传成功
+[2025-05-14T03:36:46.467Z] [INFO] 正在上传文件: 8.30.psd
+[2025-05-14T03:36:46.497Z] [INFO] 文件 8.30.psd 上传成功
+[2025-05-14T03:36:46.498Z] [INFO] 正在上传文件: 8.30全屏禁引流01.psd
+[2025-05-14T03:36:46.521Z] [INFO] 文件 8.30全屏禁引流01.psd 上传成功
+[2025-05-14T03:36:46.521Z] [INFO] 正在上传文件: 8.30全屏可引流01.psd
+[2025-05-14T03:36:46.546Z] [INFO] 文件 8.30全屏可引流01.psd 上传成功
+[2025-05-14T03:36:46.546Z] [INFO] 正在上传文件: 9.7全屏禁引流01.psd
+[2025-05-14T03:36:46.569Z] [INFO] 文件 9.7全屏禁引流01.psd 上传成功
+[2025-05-14T03:36:46.569Z] [INFO] 正在上传文件: 9.7全屏可引流01.psd
+[2025-05-14T03:36:46.597Z] [INFO] 文件 9.7全屏可引流01.psd 上传成功
+[2025-05-14T03:36:46.597Z] [INFO] 正在上传文件: 9.17全屏禁引流01.psd
+[2025-05-14T03:36:46.622Z] [INFO] 文件 9.17全屏禁引流01.psd 上传成功
+[2025-05-14T03:36:46.622Z] [INFO] 正在上传文件: 9.17全屏可引流01.psd
+[2025-05-14T03:36:46.646Z] [INFO] 文件 9.17全屏可引流01.psd 上传成功
+[2025-05-14T03:36:46.646Z] [INFO] 正在上传文件: 9.20全屏禁引流01.psd
+[2025-05-14T03:36:46.673Z] [INFO] 文件 9.20全屏禁引流01.psd 上传成功
+[2025-05-14T03:36:46.673Z] [INFO] 正在上传文件: 111 - 副本 (2).xlsx
+[2025-05-14T03:36:46.679Z] [INFO] 文件 111 - 副本 (2).xlsx 上传成功
+[2025-05-14T03:36:46.680Z] [INFO] 正在上传文件: 111 - 副本 (3).xlsx
+[2025-05-14T03:36:46.686Z] [INFO] 文件 111 - 副本 (3).xlsx 上传成功
+[2025-05-14T03:36:46.687Z] [INFO] 正在上传文件: 111 - 副本.xlsx
+[2025-05-14T03:36:46.692Z] [INFO] 文件 111 - 副本.xlsx 上传成功
+[2025-05-14T03:36:46.692Z] [INFO] 正在上传文件: 111.xlsx
+[2025-05-14T03:36:46.697Z] [INFO] 文件 111.xlsx 上传成功
+[2025-05-14T03:36:46.697Z] [INFO] 正在上传文件: 测试.psd
+[2025-05-14T03:36:46.710Z] [INFO] 文件 测试.psd 上传成功
+[2025-05-14T03:36:46.710Z] [INFO] 正在上传文件: 测试后.jpeg
+[2025-05-14T03:36:46.715Z] [INFO] 文件 测试后.jpeg 上传成功
+[2025-05-14T03:36:46.715Z] [INFO] 正在上传文件: 新建 文本文档 - 副本 (3).txt
+[2025-05-14T03:36:46.722Z] [INFO] 文件 新建 文本文档 - 副本 (3).txt 上传成功
+[2025-05-14T03:36:46.722Z] [INFO] 正在上传文件: 新建 文本文档 - 副本 (4).txt
+[2025-05-14T03:36:46.727Z] [INFO] 文件 新建 文本文档 - 副本 (4).txt 上传成功
+[2025-05-14T03:36:46.728Z] [INFO] 正在上传文件: 新建 文本文档 - 副本.txt
+[2025-05-14T03:36:46.733Z] [INFO] 文件 新建 文本文档 - 副本.txt 上传成功
+[2025-05-14T03:36:46.733Z] [INFO] 正在上传文件: 新建 文本文档.txt
+[2025-05-14T03:36:46.740Z] [INFO] 文件 新建 文本文档.txt 上传成功
+[2025-05-14T03:36:46.740Z] [INFO] 正在上传文件: 源文件 - 副本 (16) - 副本.psd
+[2025-05-14T03:36:46.754Z] [INFO] 文件 源文件 - 副本 (16) - 副本.psd 上传成功
+[2025-05-14T03:36:46.754Z] [INFO] 正在上传文件: 源文件 - 副本 (16).psd
+[2025-05-14T03:36:46.768Z] [INFO] 文件 源文件 - 副本 (16).psd 上传成功
+[2025-05-14T03:36:46.768Z] [INFO] 正在上传文件: 源文件 - 副本 (17) - 副本.psd
+[2025-05-14T03:36:46.784Z] [INFO] 文件 源文件 - 副本 (17) - 副本.psd 上传成功
+[2025-05-14T03:36:46.784Z] [INFO] 正在上传文件: 源文件 - 副本 (18) - 副本.psd
+[2025-05-14T03:36:46.799Z] [INFO] 文件 源文件 - 副本 (18) - 副本.psd 上传成功
+[2025-05-14T03:36:46.799Z] [INFO] 正在上传文件: 源文件 - 副本 (19) - 副本.psd
+[2025-05-14T03:36:46.813Z] [INFO] 文件 源文件 - 副本 (19) - 副本.psd 上传成功
+[2025-05-14T03:36:46.813Z] [INFO] 正在上传文件: 源文件 - 副本 (20) - 副本.psd
+[2025-05-14T03:36:46.827Z] [INFO] 文件 源文件 - 副本 (20) - 副本.psd 上传成功
+[2025-05-14T03:36:46.827Z] [INFO] 正在上传文件: 源文件 - 副本 (21) - 副本.psd
+[2025-05-14T03:36:46.841Z] [INFO] 文件 源文件 - 副本 (21) - 副本.psd 上传成功
+[2025-05-14T03:36:46.841Z] [INFO] 正在上传文件: 源文件 - 副本 (22) - 副本.psd
+[2025-05-14T03:36:46.856Z] [INFO] 文件 源文件 - 副本 (22) - 副本.psd 上传成功
+[2025-05-14T03:36:46.856Z] [INFO] 正在上传文件: 源文件 - 副本 (23) - 副本.psd
+[2025-05-14T03:36:46.869Z] [INFO] 文件 源文件 - 副本 (23) - 副本.psd 上传成功
+[2025-05-14T03:36:46.869Z] [INFO] 正在上传文件: 源文件 - 副本 (24) - 副本.psd
+[2025-05-14T03:36:46.882Z] [INFO] 文件 源文件 - 副本 (24) - 副本.psd 上传成功
+[2025-05-14T03:36:46.883Z] [INFO] 正在上传文件: 源文件 - 副本 (25) - 副本.psd
+[2025-05-14T03:36:46.897Z] [INFO] 文件 源文件 - 副本 (25) - 副本.psd 上传成功
+[2025-05-14T03:36:46.897Z] [INFO] 正在上传文件: 源文件 - 副本 (26) - 副本.psd
+[2025-05-14T03:36:46.912Z] [INFO] 文件 源文件 - 副本 (26) - 副本.psd 上传成功
+[2025-05-14T03:36:46.913Z] [INFO] 正在上传文件: 源文件 - 副本 (27) - 副本.psd
+[2025-05-14T03:36:46.927Z] [INFO] 文件 源文件 - 副本 (27) - 副本.psd 上传成功
+[2025-05-14T03:36:46.927Z] [INFO] 正在上传文件: 源文件 - 副本 (28) - 副本.psd
+[2025-05-14T03:36:46.942Z] [INFO] 文件 源文件 - 副本 (28) - 副本.psd 上传成功
+[2025-05-14T03:37:28.371Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:37:28.371Z] [INFO] 正在上传文件: 1 - 副本 (2).jpg
+[2025-05-14T03:37:28.376Z] [INFO] 文件 1 - 副本 (2).jpg 上传成功
+[2025-05-14T03:37:28.377Z] [INFO] 正在上传文件: 1 - 副本 (3).jpg
+[2025-05-14T03:37:28.380Z] [INFO] 文件 1 - 副本 (3).jpg 上传成功
+[2025-05-14T03:37:28.380Z] [INFO] 正在上传文件: 1 - 副本 (4).jpg
+[2025-05-14T03:37:28.384Z] [INFO] 文件 1 - 副本 (4).jpg 上传成功
+[2025-05-14T03:37:28.384Z] [INFO] 正在上传文件: 1 - 副本 (5).jpg
+[2025-05-14T03:37:28.387Z] [INFO] 文件 1 - 副本 (5).jpg 上传成功
+[2025-05-14T03:37:28.387Z] [INFO] 正在上传文件: 1 - 副本.jpg
+[2025-05-14T03:37:28.390Z] [INFO] 文件 1 - 副本.jpg 上传成功
+[2025-05-14T03:37:28.391Z] [INFO] 正在上传文件: 1.jpg
+[2025-05-14T03:37:28.394Z] [INFO] 文件 1.jpg 上传成功
+[2025-05-14T03:37:28.394Z] [INFO] 正在上传文件: 8.30.psd
+[2025-05-14T03:37:28.405Z] [INFO] 文件 8.30.psd 上传成功
+[2025-05-14T03:37:28.405Z] [INFO] 正在上传文件: 8.30全屏禁引流01.psd
+[2025-05-14T03:37:28.415Z] [INFO] 文件 8.30全屏禁引流01.psd 上传成功
+[2025-05-14T03:37:28.416Z] [INFO] 正在上传文件: 8.30全屏可引流01.psd
+[2025-05-14T03:37:28.428Z] [INFO] 文件 8.30全屏可引流01.psd 上传成功
+[2025-05-14T03:37:28.428Z] [INFO] 正在上传文件: 9.7全屏禁引流01.psd
+[2025-05-14T03:37:28.439Z] [INFO] 文件 9.7全屏禁引流01.psd 上传成功
+[2025-05-14T03:37:28.439Z] [INFO] 正在上传文件: 9.7全屏可引流01.psd
+[2025-05-14T03:37:28.452Z] [INFO] 文件 9.7全屏可引流01.psd 上传成功
+[2025-05-14T03:37:28.452Z] [INFO] 正在上传文件: 9.17全屏禁引流01.psd
+[2025-05-14T03:37:28.467Z] [INFO] 文件 9.17全屏禁引流01.psd 上传成功
+[2025-05-14T03:37:28.467Z] [INFO] 正在上传文件: 9.17全屏可引流01.psd
+[2025-05-14T03:37:28.478Z] [INFO] 文件 9.17全屏可引流01.psd 上传成功
+[2025-05-14T03:37:28.479Z] [INFO] 正在上传文件: 9.20全屏禁引流01.psd
+[2025-05-14T03:37:28.492Z] [INFO] 文件 9.20全屏禁引流01.psd 上传成功
+[2025-05-14T03:37:28.492Z] [INFO] 正在上传文件: 111 - 副本 (2).xlsx
+[2025-05-14T03:37:28.495Z] [INFO] 文件 111 - 副本 (2).xlsx 上传成功
+[2025-05-14T03:37:28.496Z] [INFO] 正在上传文件: 111 - 副本 (3).xlsx
+[2025-05-14T03:37:28.499Z] [INFO] 文件 111 - 副本 (3).xlsx 上传成功
+[2025-05-14T03:37:28.499Z] [INFO] 正在上传文件: 111 - 副本.xlsx
+[2025-05-14T03:37:28.504Z] [INFO] 文件 111 - 副本.xlsx 上传成功
+[2025-05-14T03:37:28.504Z] [INFO] 正在上传文件: 111.xlsx
+[2025-05-14T03:37:28.515Z] [INFO] 文件 111.xlsx 上传成功
+[2025-05-14T03:37:28.515Z] [INFO] 正在上传文件: 测试.psd
+[2025-05-14T03:37:28.524Z] [INFO] 文件 测试.psd 上传成功
+[2025-05-14T03:37:28.524Z] [INFO] 正在上传文件: 测试后.jpeg
+[2025-05-14T03:37:28.527Z] [INFO] 文件 测试后.jpeg 上传成功
+[2025-05-14T03:37:28.527Z] [INFO] 正在上传文件: 新建 文本文档 - 副本 (3).txt
+[2025-05-14T03:37:28.530Z] [INFO] 文件 新建 文本文档 - 副本 (3).txt 上传成功
+[2025-05-14T03:37:28.531Z] [INFO] 正在上传文件: 新建 文本文档 - 副本 (4).txt
+[2025-05-14T03:37:28.534Z] [INFO] 文件 新建 文本文档 - 副本 (4).txt 上传成功
+[2025-05-14T03:37:28.534Z] [INFO] 正在上传文件: 新建 文本文档 - 副本.txt
+[2025-05-14T03:37:28.538Z] [INFO] 文件 新建 文本文档 - 副本.txt 上传成功
+[2025-05-14T03:37:28.538Z] [INFO] 正在上传文件: 新建 文本文档.txt
+[2025-05-14T03:37:28.541Z] [INFO] 文件 新建 文本文档.txt 上传成功
+[2025-05-14T03:37:28.541Z] [INFO] 正在上传文件: 源文件 - 副本 (16) - 副本.psd
+[2025-05-14T03:37:28.546Z] [INFO] 文件 源文件 - 副本 (16) - 副本.psd 上传成功
+[2025-05-14T03:37:28.546Z] [INFO] 正在上传文件: 源文件 - 副本 (16).psd
+[2025-05-14T03:37:28.551Z] [INFO] 文件 源文件 - 副本 (16).psd 上传成功
+[2025-05-14T03:37:28.551Z] [INFO] 正在上传文件: 源文件 - 副本 (17) - 副本.psd
+[2025-05-14T03:37:28.556Z] [INFO] 文件 源文件 - 副本 (17) - 副本.psd 上传成功
+[2025-05-14T03:37:28.556Z] [INFO] 正在上传文件: 源文件 - 副本 (18) - 副本.psd
+[2025-05-14T03:37:28.560Z] [INFO] 文件 源文件 - 副本 (18) - 副本.psd 上传成功
+[2025-05-14T03:37:28.561Z] [INFO] 正在上传文件: 源文件 - 副本 (19) - 副本.psd
+[2025-05-14T03:37:28.566Z] [INFO] 文件 源文件 - 副本 (19) - 副本.psd 上传成功
+[2025-05-14T03:37:28.566Z] [INFO] 正在上传文件: 源文件 - 副本 (20) - 副本.psd
+[2025-05-14T03:37:28.571Z] [INFO] 文件 源文件 - 副本 (20) - 副本.psd 上传成功
+[2025-05-14T03:37:28.571Z] [INFO] 正在上传文件: 源文件 - 副本 (21) - 副本.psd
+[2025-05-14T03:37:28.576Z] [INFO] 文件 源文件 - 副本 (21) - 副本.psd 上传成功
+[2025-05-14T03:37:28.576Z] [INFO] 正在上传文件: 源文件 - 副本 (22) - 副本.psd
+[2025-05-14T03:37:28.580Z] [INFO] 文件 源文件 - 副本 (22) - 副本.psd 上传成功
+[2025-05-14T03:37:28.580Z] [INFO] 正在上传文件: 源文件 - 副本 (23) - 副本.psd
+[2025-05-14T03:37:28.584Z] [INFO] 文件 源文件 - 副本 (23) - 副本.psd 上传成功
+[2025-05-14T03:37:28.585Z] [INFO] 正在上传文件: 源文件 - 副本 (24) - 副本.psd
+[2025-05-14T03:37:28.589Z] [INFO] 文件 源文件 - 副本 (24) - 副本.psd 上传成功
+[2025-05-14T03:37:28.589Z] [INFO] 正在上传文件: 源文件 - 副本 (25) - 副本.psd
+[2025-05-14T03:37:28.593Z] [INFO] 文件 源文件 - 副本 (25) - 副本.psd 上传成功
+[2025-05-14T03:37:28.593Z] [INFO] 正在上传文件: 源文件 - 副本 (26) - 副本.psd
+[2025-05-14T03:37:28.597Z] [INFO] 文件 源文件 - 副本 (26) - 副本.psd 上传成功
+[2025-05-14T03:37:28.598Z] [INFO] 正在上传文件: 源文件 - 副本 (27) - 副本.psd
+[2025-05-14T03:37:28.603Z] [INFO] 文件 源文件 - 副本 (27) - 副本.psd 上传成功
+[2025-05-14T03:37:28.603Z] [INFO] 正在上传文件: 源文件 - 副本 (28) - 副本.psd
+[2025-05-14T03:37:28.607Z] [INFO] 文件 源文件 - 副本 (28) - 副本.psd 上传成功
+[2025-05-14T03:38:27.323Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:38:27.324Z] [INFO] 正在上传文件: 源文件 - 副本 (21) - 副本.psd
+[2025-05-14T03:38:27.339Z] [INFO] 文件 源文件 - 副本 (21) - 副本.psd 上传成功
+[2025-05-14T03:39:10.373Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:39:10.373Z] [INFO] 正在上传文件: clipboard-1747193950365.png
+[2025-05-14T03:39:10.381Z] [INFO] 文件 clipboard-1747193950365.png 上传成功
+[2025-05-14T03:39:31.242Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T03:39:31.242Z] [INFO] 正在上传文件: clipboard-1747193971231.png
+[2025-05-14T03:39:31.250Z] [INFO] 文件 clipboard-1747193971231.png 上传成功
+[2025-05-14T03:45:55.971Z] [INFO] 应用程序启动
+[2025-05-14T03:45:55.997Z] [INFO] 加载配置文件成功
+[2025-05-14T03:45:56.000Z] [INFO] 开始测试MinIO连接
+[2025-05-14T03:45:56.003Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T03:45:56.004Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T03:45:56.013Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T03:45:56.014Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T03:45:56.020Z] [INFO] 存储桶已存在: www
+[2025-05-14T03:45:56.022Z] [INFO] MinIO连接测试成功
+[2025-05-14T05:49:48.747Z] [INFO] 应用程序启动
+[2025-05-14T05:49:48.775Z] [INFO] 加载配置文件成功
+[2025-05-14T05:49:48.777Z] [INFO] 开始测试MinIO连接
+[2025-05-14T05:49:48.780Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T05:49:48.781Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T05:49:48.791Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T05:49:48.792Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T05:49:48.797Z] [INFO] 存储桶已存在: www
+[2025-05-14T05:49:48.799Z] [INFO] MinIO连接测试成功
+[2025-05-14T05:51:02.102Z] [INFO] 应用程序启动
+[2025-05-14T05:51:02.130Z] [INFO] 加载配置文件成功
+[2025-05-14T05:51:02.132Z] [INFO] 开始测试MinIO连接
+[2025-05-14T05:51:02.135Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T05:51:02.136Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T05:51:02.146Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T05:51:02.147Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T05:51:02.151Z] [INFO] 存储桶已存在: www
+[2025-05-14T05:51:02.154Z] [INFO] MinIO连接测试成功
+[2025-05-14T05:51:39.123Z] [INFO] 应用程序启动
+[2025-05-14T05:51:39.152Z] [INFO] 加载配置文件成功
+[2025-05-14T05:51:39.155Z] [INFO] 开始测试MinIO连接
+[2025-05-14T05:51:39.158Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T05:51:39.158Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T05:51:39.169Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T05:51:39.169Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T05:51:39.176Z] [INFO] 存储桶已存在: www
+[2025-05-14T05:51:39.178Z] [INFO] MinIO连接测试成功
+[2025-05-14T05:57:53.206Z] [INFO] 应用程序启动
+[2025-05-14T05:57:53.234Z] [INFO] 加载配置文件成功
+[2025-05-14T05:57:53.237Z] [INFO] 开始测试MinIO连接
+[2025-05-14T05:57:53.240Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T05:57:53.240Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T05:57:53.250Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T05:57:53.251Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T05:57:53.257Z] [INFO] 存储桶已存在: www
+[2025-05-14T05:57:53.259Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:03:48.072Z] [INFO] 应用程序启动
+[2025-05-14T06:03:48.099Z] [INFO] 加载配置文件成功
+[2025-05-14T06:03:48.102Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:03:48.105Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:03:48.106Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:03:48.117Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:03:48.117Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:03:48.122Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:03:48.125Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:05:51.028Z] [INFO] 应用程序启动
+[2025-05-14T06:05:51.055Z] [INFO] 加载配置文件成功
+[2025-05-14T06:05:51.057Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:05:51.061Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:05:51.061Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:05:51.072Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:05:51.073Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:05:51.078Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:05:51.080Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:09:11.214Z] [INFO] 应用程序启动
+[2025-05-14T06:09:11.242Z] [INFO] 加载配置文件成功
+[2025-05-14T06:09:11.245Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:09:11.249Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:09:11.249Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:09:11.258Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:09:11.259Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:09:11.266Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:09:11.269Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:14:00.123Z] [INFO] 应用程序启动
+[2025-05-14T06:14:00.150Z] [INFO] 加载配置文件成功
+[2025-05-14T06:14:00.152Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:14:00.156Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:14:00.157Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:14:00.168Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:14:00.168Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:14:00.174Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:14:00.177Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:15:52.383Z] [INFO] 应用程序启动
+[2025-05-14T06:15:52.413Z] [INFO] 加载配置文件成功
+[2025-05-14T06:15:52.416Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:15:52.420Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:15:52.420Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:15:52.433Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:15:52.434Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:15:52.439Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:15:52.443Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:22:50.649Z] [INFO] 应用程序启动
+[2025-05-14T06:22:50.677Z] [INFO] 加载配置文件成功
+[2025-05-14T06:22:50.679Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:22:50.682Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:22:50.683Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:22:50.695Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:22:50.695Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:22:50.700Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:22:50.703Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:33:26.716Z] [INFO] 应用程序启动
+[2025-05-14T06:33:26.742Z] [INFO] 加载配置文件成功
+[2025-05-14T06:33:26.745Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:33:26.749Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:33:26.749Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:33:26.760Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:33:26.760Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:33:26.767Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:33:26.770Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:36:08.968Z] [INFO] 应用程序启动
+[2025-05-14T06:36:08.996Z] [INFO] 加载配置文件成功
+[2025-05-14T06:36:08.999Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:36:09.002Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:36:09.002Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:36:09.014Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:36:09.014Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:36:09.021Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:36:09.024Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:39:00.954Z] [INFO] 应用程序启动
+[2025-05-14T06:39:00.981Z] [INFO] 加载配置文件成功
+[2025-05-14T06:39:00.984Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:39:00.988Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:39:00.988Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:39:00.999Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:39:00.999Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:39:01.005Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:39:01.007Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:44:10.458Z] [INFO] 应用程序启动
+[2025-05-14T06:44:10.487Z] [INFO] 加载配置文件成功
+[2025-05-14T06:44:10.491Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:44:10.495Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:44:10.495Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:44:10.510Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:44:10.510Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:44:10.516Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:44:10.519Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:46:48.122Z] [INFO] 应用程序启动
+[2025-05-14T06:46:48.150Z] [INFO] 加载配置文件成功
+[2025-05-14T06:46:48.153Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:46:48.157Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:46:48.158Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:46:48.169Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:46:48.169Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:46:48.175Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:46:48.177Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:50:19.520Z] [INFO] 应用程序启动
+[2025-05-14T06:50:19.549Z] [INFO] 加载配置文件成功
+[2025-05-14T06:50:19.551Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:50:19.555Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:50:19.555Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:50:19.566Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:50:19.566Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:50:19.572Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:50:19.574Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:50:34.893Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:50:34.893Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:50:34.894Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:50:34.896Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:50:34.896Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:50:34.899Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:50:34.900Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:53:35.829Z] [INFO] 应用程序启动
+[2025-05-14T06:53:35.858Z] [INFO] 加载配置文件成功
+[2025-05-14T06:53:35.861Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:53:35.864Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:53:35.865Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:53:35.877Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:53:35.877Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:53:35.882Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:53:35.885Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:58:38.946Z] [INFO] 应用程序启动
+[2025-05-14T06:58:38.974Z] [INFO] 加载配置文件成功
+[2025-05-14T06:59:22.858Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:59:22.860Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:59:22.860Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:59:22.872Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:59:22.873Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:59:22.877Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:59:22.878Z] [INFO] MinIO连接测试成功
+[2025-05-14T06:59:24.238Z] [INFO] 开始测试MinIO连接
+[2025-05-14T06:59:24.240Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T06:59:24.241Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T06:59:24.243Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T06:59:24.243Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T06:59:24.245Z] [INFO] 存储桶已存在: www
+[2025-05-14T06:59:24.246Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:00:22.114Z] [INFO] 应用程序启动
+[2025-05-14T07:00:22.143Z] [INFO] 加载配置文件成功
+[2025-05-14T07:00:22.146Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:00:22.150Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:00:22.150Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:00:22.163Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:00:22.163Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:00:22.169Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:00:22.172Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:01:12.682Z] [INFO] 应用程序启动
+[2025-05-14T07:01:12.710Z] [INFO] 加载配置文件成功
+[2025-05-14T07:01:12.713Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:01:12.717Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:01:12.718Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:01:12.728Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:01:12.728Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:01:12.734Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:01:12.737Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:01:45.560Z] [INFO] 应用程序启动
+[2025-05-14T07:01:45.588Z] [INFO] 加载配置文件成功
+[2025-05-14T07:02:04.090Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:02:04.091Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:02:04.092Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:02:04.103Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:02:04.104Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:02:04.108Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:02:04.109Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:09:58.467Z] [INFO] 应用程序启动
+[2025-05-14T07:09:58.497Z] [INFO] 加载配置文件成功
+[2025-05-14T07:09:58.499Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:09:58.503Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:09:58.504Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:09:58.517Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:09:58.517Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:09:58.529Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:09:58.532Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:11:07.115Z] [INFO] 应用程序启动
+[2025-05-14T07:11:07.143Z] [INFO] 加载配置文件成功
+[2025-05-14T07:11:07.146Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:11:07.150Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:11:07.150Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:11:07.162Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:11:07.162Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:11:07.168Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:11:07.171Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:13:26.205Z] [INFO] 应用程序启动
+[2025-05-14T07:13:26.236Z] [INFO] 加载配置文件成功
+[2025-05-14T07:13:26.238Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:13:26.244Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:13:26.244Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:13:26.257Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:13:26.257Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:13:26.264Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:13:26.266Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:17:48.717Z] [INFO] 应用程序启动
+[2025-05-14T07:17:48.747Z] [INFO] 加载配置文件成功
+[2025-05-14T07:17:48.750Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:17:48.754Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:17:48.755Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:17:48.766Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:17:48.767Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:17:48.773Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:17:48.776Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:19:33.571Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:19:33.576Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:19:33.576Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:19:33.579Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:19:33.579Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:19:33.583Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:19:33.584Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:20:24.610Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:20:24.612Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:20:24.612Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:20:24.615Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:20:24.615Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:20:24.618Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:20:24.619Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:20:41.842Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:20:41.843Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:20:41.844Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:20:41.846Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:20:41.846Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:20:41.849Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:20:41.850Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:20:52.138Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:20:52.140Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:20:52.140Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:20:52.142Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:20:52.142Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:20:52.145Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:20:52.146Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:24:05.449Z] [INFO] 应用程序启动
+[2025-05-14T07:24:05.479Z] [INFO] 加载配置文件成功
+[2025-05-14T07:24:05.482Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:24:05.488Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:24:05.488Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:24:05.501Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:24:05.502Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:24:05.508Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:24:05.511Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:33:35.007Z] [INFO] 应用程序启动
+[2025-05-14T07:33:35.036Z] [INFO] 加载配置文件成功
+[2025-05-14T07:33:35.039Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:33:35.043Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:33:35.043Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:33:35.055Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:33:35.056Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:33:35.061Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:33:35.064Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:41:06.711Z] [INFO] 应用程序启动
+[2025-05-14T07:41:06.739Z] [INFO] 加载配置文件成功
+[2025-05-14T07:41:06.742Z] [INFO] 开始测试MinIO连接
+[2025-05-14T07:41:06.746Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T07:41:06.747Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T07:41:06.758Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T07:41:06.758Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T07:41:06.767Z] [INFO] 存储桶已存在: www
+[2025-05-14T07:41:06.770Z] [INFO] MinIO连接测试成功
+[2025-05-14T07:42:27.314Z] [INFO] 开始上传文件到目录: ""
+[2025-05-14T07:42:27.314Z] [INFO] 正在上传文件: PSD批量编辑器.exe
+[2025-05-14T07:42:27.766Z] [INFO] 文件 PSD批量编辑器.exe 上传成功
+[2025-05-14T07:43:11.630Z] [INFO] 应用程序启动
+[2025-05-14T07:43:11.658Z] [INFO] 加载配置文件成功
+[2025-05-14T08:21:33.973Z] [INFO] 应用程序启动
+[2025-05-14T08:21:34.003Z] [INFO] 加载配置文件成功
+[2025-05-14T08:21:56.958Z] [INFO] 开始测试MinIO连接
+[2025-05-14T08:21:56.959Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T08:21:56.959Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T08:21:56.968Z] [INFO] 获取到存储桶列表: www
+[2025-05-14T08:21:56.968Z] [INFO] 检查存储桶是否存在: www
+[2025-05-14T08:21:56.977Z] [INFO] 存储桶已存在: www
+[2025-05-14T08:21:56.978Z] [INFO] MinIO连接测试成功
+[2025-05-14T09:21:33.793Z] [INFO] 应用程序启动
+[2025-05-14T09:21:33.822Z] [INFO] 加载配置文件成功
+[2025-05-14T09:21:33.824Z] [INFO] 开始测试MinIO连接
+[2025-05-14T09:21:33.827Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T09:21:33.828Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T09:21:33.895Z] [INFO] 获取到存储桶列表: ceshi, halo
+[2025-05-14T09:21:33.895Z] [INFO] 检查存储桶是否存在: halo
+[2025-05-14T09:21:33.976Z] [INFO] 存储桶已存在: halo
+[2025-05-14T09:21:33.979Z] [INFO] MinIO连接测试成功
+[2025-05-14T09:24:16.380Z] [INFO] 应用程序启动
+[2025-05-14T09:24:16.411Z] [INFO] 加载配置文件成功
+[2025-05-14T09:24:16.414Z] [INFO] 开始测试MinIO连接
+[2025-05-14T09:24:16.418Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T09:24:16.418Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T09:24:16.470Z] [INFO] 获取到存储桶列表: ceshi, halo
+[2025-05-14T09:24:16.471Z] [INFO] 检查存储桶是否存在: halo
+[2025-05-14T09:24:16.552Z] [INFO] 存储桶已存在: halo
+[2025-05-14T09:24:16.555Z] [INFO] MinIO连接测试成功
+[2025-05-14T09:24:33.673Z] [INFO] 开始测试MinIO连接
+[2025-05-14T09:24:33.675Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T09:24:33.675Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T09:24:33.717Z] [INFO] 获取到存储桶列表: ceshi, halo
+[2025-05-14T09:24:33.718Z] [INFO] 检查存储桶是否存在: halo
+[2025-05-14T09:24:33.798Z] [INFO] 存储桶已存在: halo
+[2025-05-14T09:24:33.800Z] [INFO] MinIO连接测试成功
+[2025-05-14T09:27:38.888Z] [INFO] 应用程序启动
+[2025-05-14T09:27:38.917Z] [INFO] 加载配置文件成功
+[2025-05-14T09:27:38.920Z] [INFO] 开始测试MinIO连接
+[2025-05-14T09:27:38.923Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T09:27:38.924Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T09:27:38.983Z] [INFO] 获取到存储桶列表: ceshi, halo
+[2025-05-14T09:27:38.984Z] [INFO] 检查存储桶是否存在: halo
+[2025-05-14T09:27:39.077Z] [INFO] 存储桶已存在: halo
+[2025-05-14T09:27:39.079Z] [INFO] MinIO连接测试成功
+[2025-05-14T09:30:45.238Z] [INFO] 应用程序启动
+[2025-05-14T09:30:45.267Z] [INFO] 加载配置文件成功
+[2025-05-14T09:31:16.529Z] [INFO] 开始测试MinIO连接
+[2025-05-14T09:31:16.534Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T09:31:16.534Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T09:31:16.547Z] [ERROR] MinIO连接测试失败: getaddrinfo ENOTFOUND 1111.1111.11
+[2025-05-14T09:31:23.810Z] [INFO] 应用程序启动
+[2025-05-14T09:31:23.838Z] [INFO] 加载配置文件成功
+[2025-05-14T09:31:23.840Z] [INFO] 开始测试MinIO连接
+[2025-05-14T09:31:23.844Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T09:31:23.844Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T09:31:23.859Z] [ERROR] MinIO连接测试失败: getaddrinfo ENOTFOUND 1111.1111.11
+[2025-05-14T09:47:52.807Z] [INFO] 应用程序启动
+[2025-05-14T09:47:52.834Z] [INFO] 加载配置文件成功
+[2025-05-14T09:47:52.837Z] [INFO] 开始测试MinIO连接
+[2025-05-14T09:47:52.841Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T09:47:52.842Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T09:47:52.894Z] [INFO] 获取到存储桶列表: ceshi, halo
+[2025-05-14T09:47:52.894Z] [INFO] 检查存储桶是否存在: halo
+[2025-05-14T09:47:52.977Z] [INFO] 存储桶已存在: halo
+[2025-05-14T09:47:52.980Z] [INFO] MinIO连接测试成功
+[2025-05-14T09:48:17.199Z] [INFO] 开始测试MinIO连接
+[2025-05-14T09:48:17.201Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T09:48:17.201Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T09:48:19.890Z] [ERROR] MinIO连接测试失败: getaddrinfo ENOTFOUND 111
+[2025-05-14T09:48:27.213Z] [INFO] 应用程序启动
+[2025-05-14T09:48:27.240Z] [INFO] 加载配置文件成功
+[2025-05-14T09:48:27.242Z] [INFO] 开始测试MinIO连接
+[2025-05-14T09:48:27.246Z] [INFO] 配置文件路径: {"configPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG\\MinioPG-config.json","configDir":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","userDataPath":"C:\\Users\\Administrator\\AppData\\Roaming\\MinioPG","appPath":"D:\\MinioGP"}
+[2025-05-14T09:48:27.246Z] [INFO] 正在连接MinIO服务器...
+[2025-05-14T09:48:29.968Z] [ERROR] MinIO连接测试失败: getaddrinfo ENOTFOUND 111
+[2025-05-14T09:48:48.166Z] [INFO] 应用程序启动
+[2025-05-14T09:48:48.195Z] [INFO] 加载配置文件成功
+[2025-05-14T09:49:45.979Z] [INFO] 应用程序启动
+[2025-05-14T09:49:46.007Z] [INFO] 加载配置文件成功
